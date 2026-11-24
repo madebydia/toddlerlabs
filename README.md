@@ -4,7 +4,7 @@
 
 No ads. No tracking. No accounts. Just activities.
 
-→ **[toddlerlabs.com](https://toddlerlabs.com)**
+→ **[madebydia.com/toddlerlabs](https://madebydia.com/toddlerlabs)**
 
 ---
 
@@ -28,7 +28,7 @@ CMYK print-press aesthetic: Zilla Slab + Space Mono, halftone dot overlays, regi
 
 ## Contribute
 
-Found an activity that belongs here? [Open an issue](https://github.com/madebydia/toddlerlabs.com/issues/new) with the details.
+Found an activity that belongs here? [Open an issue](https://github.com/madebydia/madebydia.com/toddlerlabs/issues/new) with the details.
 
 ---
 

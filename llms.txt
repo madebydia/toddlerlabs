@@ -2,7 +2,7 @@
 
 > 115+ free educational activities and browser games for toddlers ages 2-5.
 > No ads, no tracking, no accounts. Built by @madebydia.
-> https://toddlerlabs.com
+> https://madebydia.com/toddlerlabs
 
 ## About
 
@@ -154,14 +154,14 @@ All activities include: age range (2-3), category, skill focus, messiness level,
 
 ### From Toddler Labs / madebydia
 - Tiny Terminal — Keyboard + Cause & Effect — Ages 2-5 — https://tiny-terminal.com
-- Word Train — Phonics + Blending — Ages 3-6 — https://mama.dev/word-train/
-- Shapes — Geometry + Vocabulary — Ages 2-4 — https://mama.dev/shapes/
-- Bigger Than Race — Number Sense + Comparison — Ages 3-6 — https://mama.dev/bigger-than-race/
+- Word Train — Phonics + Blending — Ages 3-6 — https://mama.dev/games/word-train/
+- Shapes — Geometry + Vocabulary — Ages 2-4 — https://mama.dev/games/shapes/
+- Bigger Than Race — Number Sense + Comparison — Ages 3-6 — https://mama.dev/games/bigger-than-race/
 
 ### Full Game Collection
 - 25+ educational browser games — All free, no ads, no accounts — https://madladstudios.com
 
 ## Related Resources
 - Build With Your Kid (ebook): 12 weeks of tech projects for toddlers — https://buildwithyourkid.com
-- Raising Pixels: Parenting + tech publication — https://raisingpixels.dev
+- Raising Pixels: Parenting + tech publication — https://blog.raisingpixels.dev
 - GitHub: https://github.com/madebydia/toddlerlabs.com

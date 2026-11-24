@@ -6,7 +6,7 @@
 <title>Toddler Labs — 115+ Educational Activities &amp; Free Games for Ages 2-5</title>
 <meta name="description" content="115+ free toddler activities and educational games for ages 2-5. Filter by category, mess level, and setup time. No ads, no tracking, no accounts.">
 <meta name="keywords" content="toddler activities, educational games for toddlers, toddler learning activities, preschool activities, free kids games">
-<link rel="canonical" href="https://toddlerlabs.com">
+<link rel="canonical" href="https://madebydia.com/toddlerlabs">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/favicon-192.png">
@@ -14,13 +14,13 @@
 <!-- OG / Twitter Cards -->
 <meta property="og:title" content="Toddler Labs — 115+ Educational Activities &amp; Free Games for Ages 2-5">
 <meta property="og:description" content="115+ free toddler activities and educational games for ages 2-5. Filter by category, mess level, and setup time. No ads, no tracking, no accounts.">
-<meta property="og:url" content="https://toddlerlabs.com">
+<meta property="og:url" content="https://madebydia.com/toddlerlabs">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://toddlerlabs.com/og.png">
+<meta property="og:image" content="https://madebydia.com/toddlerlabs/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Toddler Labs — 115+ Educational Activities &amp; Free Games for Ages 2-5">
 <meta name="twitter:description" content="115+ free toddler activities and educational games for ages 2-5.">
-<meta name="twitter:image" content="https://toddlerlabs.com/og.png">
+<meta name="twitter:image" content="https://madebydia.com/toddlerlabs/og.png">
 <meta name="twitter:site" content="@madebydia">
 <meta name="twitter:creator" content="@madebydia">
 
@@ -42,7 +42,7 @@
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "Toddler Labs",
-  "url": "https://toddlerlabs.com",
+  "url": "https://madebydia.com/toddlerlabs",
   "description": "115+ free educational activities and browser games for toddlers ages 2-5",
   "applicationCategory": "EducationalApplication",
   "audience": {"@type": "EducationalAudience", "educationalRole": "parent"},
@@ -1612,7 +1612,7 @@ body {
             <span class="game-tag">Phonics</span>
             <span class="game-tag">Blending</span>
           </div>
-          <a href="https://mama.dev/word-train/" class="game-launch-btn" target="_blank" rel="noopener noreferrer" aria-label="Launch Word Train game (opens in new tab)">
+          <a href="https://mama.dev/games/word-train/" class="game-launch-btn" target="_blank" rel="noopener noreferrer" aria-label="Launch Word Train game (opens in new tab)">
             LAUNCH ↗
           </a>
         </div>
@@ -1628,7 +1628,7 @@ body {
             <span class="game-tag">Geometry</span>
             <span class="game-tag">Vocabulary</span>
           </div>
-          <a href="https://mama.dev/shapes/" class="game-launch-btn" target="_blank" rel="noopener noreferrer" aria-label="Launch Shapes game (opens in new tab)">
+          <a href="https://mama.dev/games/shapes/" class="game-launch-btn" target="_blank" rel="noopener noreferrer" aria-label="Launch Shapes game (opens in new tab)">
             LAUNCH ↗
           </a>
         </div>
@@ -1644,7 +1644,7 @@ body {
             <span class="game-tag">Number Sense</span>
             <span class="game-tag">Comparison</span>
           </div>
-          <a href="https://mama.dev/bigger-than-race/" class="game-launch-btn" target="_blank" rel="noopener noreferrer" aria-label="Launch Bigger Than Race game (opens in new tab)">
+          <a href="https://mama.dev/games/bigger-than-race/" class="game-launch-btn" target="_blank" rel="noopener noreferrer" aria-label="Launch Bigger Than Race game (opens in new tab)">
             LAUNCH ↗
           </a>
         </div>
@@ -1682,19 +1682,6 @@ body {
   </aside>
 
   <!-- EMAIL CAPTURE -->
-  <section class="email-capture" aria-label="Newsletter signup">
-    <div class="email-capture-inner">
-      <div class="email-capture-overline">WEEKLY DISPATCH</div>
-      <h2 class="email-capture-title">New activities in your inbox</h2>
-      <p class="email-capture-body">Free weekly ideas for building, learning, and playing with your kid. No spam, no fluff.</p>
-      <form class="email-capture-form" id="emailCaptureForm" onsubmit="return handleEmailCapture(event)">
-        <input type="email" name="email" class="email-capture-input" placeholder="your@email.com" required autocomplete="email" aria-label="Email address">
-        <button type="submit" class="email-capture-btn" id="emailCaptureBtn">SUBSCRIBE</button>
-      </form>
-      <p class="email-capture-status" id="emailCaptureStatus" aria-live="polite"></p>
-      <p class="email-capture-fine">Delivered via <a href="https://raisingpixels.dev" target="_blank" rel="noopener noreferrer">Raising Pixels</a></p>
-    </div>
-  </section>
   </div><!-- /cta-row -->
 
 </main>
@@ -1704,7 +1691,6 @@ body {
   <div class="footer-inner">
     <div class="footer-links">
       <a href="https://x.com/madebydia" class="footer-link" target="_blank" rel="noopener noreferrer">Built by @madebydia</a>
-      <a href="https://raisingpixels.dev" class="footer-link" target="_blank" rel="noopener noreferrer">Raising Pixels</a>
       <a href="https://github.com/madebydia/toddlerlabs.com/issues/new" class="footer-link" target="_blank" rel="noopener noreferrer">Submit an Activity</a>
       <a href="https://github.com/madebydia/toddlerlabs.com" class="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
@@ -2007,47 +1993,6 @@ renderGrid();
 // ============================================================
 // EMAIL CAPTURE → Raising Pixels / Kit
 // ============================================================
-async function handleEmailCapture(e) {
-  e.preventDefault();
-  const form = document.getElementById('emailCaptureForm');
-  const btn = document.getElementById('emailCaptureBtn');
-  const status = document.getElementById('emailCaptureStatus');
-  const email = form.email.value.trim();
-  if (!email) return false;
-
-  btn.disabled = true;
-  btn.textContent = 'SENDING...';
-  status.textContent = '';
-  status.className = 'email-capture-status';
-
-  try {
-    const response = await fetch('https://raisingpixels.dev/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        email,
-        source: 'toddlerlabs',
-        current_url: window.location.href,
-        current_referrer: document.referrer || ''
-      })
-    });
-    const payload = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(payload.error || 'Something went wrong.');
-
-    status.textContent = 'You\'re in — check your inbox for a welcome email';
-    status.className = 'email-capture-status success';
-    btn.textContent = 'SUBSCRIBED';
-    form.email.value = '';
-    if (window.plausible) plausible('Email Capture', { props: { source: 'toddlerlabs' } });
-  } catch (error) {
-    status.textContent = error.message || 'Something went wrong. Please try again.';
-    status.className = 'email-capture-status error';
-    btn.disabled = false;
-    btn.textContent = 'SUBSCRIBE';
-  }
-
-  return false;
-}
 </script>
 
 </body>
